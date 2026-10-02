@@ -1,0 +1,37 @@
+{
+  "upstream_model": {
+    "repo": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3"
+  },
+  "training_data": {
+    "repo": "gbnam8/jp-music-title-encoder-data",
+    "repo_type": "dataset",
+    "visibility": "private",
+    "revision": null,
+    "reproducibility_status": "A public immutable revision was not recorded. Exact independent reproduction is blocked until one is published."
+  },
+  "student": {
+    "repo": "gbnam8/jp-music-title-encoder",
+    "revision": "a91836768a89a105db4e36b480c06e5418270835",
+    "files": {
+      "model.safetensors": {
+        "bytes": 159886088,
+        "sha256": "5820fa4bbce71dbe20df63a5c840ad2ee890070b773dc11bbba8b51b39ac86e4"
+      },
+      "model.onnx": {
+        "bytes": 159405024,
+        "sha256": "a67425a8ce0f37c8892a6fabd0d3c8084a18256c383dc45841bb8812e7cfbc5f"
+      }
+    }
+  },
+  "teacher": {
+    "repo": "gbnam8/jp-music-title-encoder-teacher",
+    "revision": "c89465f714d7669e0e433841dd877e31f5bff4b7",
+    "files": {
+      "model.safetensors": {
+        "bytes": 470637416,
+        "sha256": "209eba60066281052c1c708a0fec30e61d2113dd13497a125697ed73aa3d93b9"
+      }
+    }
+  }
+}
